@@ -1,0 +1,81 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 70px;
+}
+img{
+  width:350px;
+  height: 670px;
+}
+.container
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-top: 50px;
+}
+.text-sharp {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#testimonial 
+{
+  background-color: aliceblue;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  
+}
+.img-src
+{
+  width:70%;
+  height:50%;
+  padding: 5px;
+}
+#testimonial > div > p
+{
+  margin-top: 10px;
+}
+#testimonial > div > h2
+{
+  margin-top:70px
+}
+#brans
+{
+  padding-top: 50px;
+}
+#pricing > div.pricing-header.p-3.pb-md-4.mx-auto.text-center
+{
+margin-top: 80px;
+}
+#hanging-icons > div > div:nth-child(2) > div.icon-square.text-body-emphasis.bg-body-secondary.d-inline-flex.align-items-center.justify-content-center.fs-4.flex-shrink-0.me-3,#hanging-icons > div > div:nth-child(3) > div.icon-square.text-body-emphasis.bg-body-secondary.d-inline-flex.align-items-center.justify-content-center.fs-4.flex-shrink-0.me-3 > svg,#hanging-icons > div > div:nth-child(1) > div.icon-square.text-body-emphasis.bg-body-secondary.d-inline-flex.align-items-center.justify-content-center.fs-4.flex-shrink-0.me-3
+{
+  border-radius: 50%;
+}
